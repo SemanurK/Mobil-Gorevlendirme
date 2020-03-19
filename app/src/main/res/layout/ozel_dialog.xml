@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content"
+        android:text="Görev Düzenle" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="240dp"
+            android:hint="Son geçerlilik tarihi"
+
+            android:id="@+id/dialog_tarih"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:id="@+id/takvim"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buton_tasarimi"
+            android:drawableLeft="@drawable/takviim"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dialog_aciklama"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Görev açıklaması"
+        android:inputType="textPersonName"
+       />
+
+</LinearLayout>

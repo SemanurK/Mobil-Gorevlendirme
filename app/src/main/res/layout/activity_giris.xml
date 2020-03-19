@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gri"
+    android:orientation="vertical"
+    tools:context=".Giris">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="258dp"
+        android:layout_height="196dp"
+        android:layout_marginLeft="60dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/edt_kulad"
+        android:layout_width="248dp"
+        android:layout_height="47dp"
+        android:background="#cfcfcf"
+        android:drawableLeft="@drawable/kullanicilogo"
+        android:ems="20"
+        android:layout_marginLeft="62dp"
+        android:hint="  Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_sifre"
+        android:layout_width="248dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="62dp"
+        android:background="#cfcfcf"
+        android:drawableLeft="@drawable/sifrelogo"
+        android:ems="20"
+        android:hint="  Şifre"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="250dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/buton_tasarimi"
+        android:text="Giriş"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <Button
+            android:id="@+id/kayıt_ol"
+            android:layout_width="180dp"
+
+            android:layout_marginLeft="60dp"
+
+            android:layout_height="67dp"
+            android:background="@drawable/buton_tasarimi"
+            android:text="Kayıt Ol"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/sifremi_unuttum"
+            android:layout_width="60dp"
+            android:padding="12dp"
+
+           android:layout_marginLeft="10dp"
+            android:layout_height="67dp"
+            android:background="@drawable/buton_tasarimi"
+     android:drawableLeft="@drawable/sifre"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

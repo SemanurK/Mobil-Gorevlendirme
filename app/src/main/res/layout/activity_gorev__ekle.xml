@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gri"
+
+    android:padding="14dp"
+    tools:context=".Gorev_Ekle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:background="@drawable/spinner_border"
+        android:padding="18dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Görev Tanımlama "
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:background="@drawable/spinner_border"
+            android:textStyle="bold"
+            android:textColor="#FF9933"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_border"
+
+            android:id="@+id/gorev_detay_acıklama"
+            android:hint="Görev Açıklaması" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:padding="2dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Son Tarihi : "
+            android:textSize="18sp"
+            />
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:id="@+id/tarih"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/tarih_sec"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+
+                android:gravity="center"
+                android:background="@drawable/buton_tasarimi"
+                android:drawableRight="@drawable/takviim"
+                android:drawablePadding="5dp"
+                android:padding="5dp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/gorev_olustur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buton_tasarimi"
+            android:text="Görev oluştur" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/spinner_border"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+       >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:text="Görevlendirmek istediğiniz kişileri seçiniz !"
+            />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup"
+            android:padding="10dp">
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textSize="17sp"
+                android:text="Tüm Kullanıcılara Ekle " />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:textSize="17sp"
+                android:enabled="false"
+                android:layout_marginTop="4dp"
+
+                android:layout_height="wrap_content"
+                android:text="Bölüme Göre Ekle" />
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:textSize="17sp"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                android:text="Kişi Seç" />
+
+        </RadioGroup>
+
+
+
+      <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tum_sec"
+                android:text="Tümüne Ekle"
+                android:background="@drawable/buton_tasarimi"/>
+        <Button
+            android:id="@+id/kisi_sec"
+            android:layout_marginTop="10dp"
+            android:layout_width="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buton_tasarimi"
+            android:text="Kişileri Seç" />
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="Görevlendirilecekler:"/>
+
+        <TextView
+
+            android:layout_marginLeft="5dp"
+            android:id="@+id/textView4"
+            android:textColor="#000"
+            android:layout_width="310dp"
+            android:layout_height="10dp"
+          />-->
+    </LinearLayout>
+   <!-- <Button
+        android:id="@+id/kul_gorev_tanımla"
+
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_tasarimi"
+        android:text=" seçilen Kişilere Görev tanımla" />-->
+
+
+
+
+
+
+
+</LinearLayout>

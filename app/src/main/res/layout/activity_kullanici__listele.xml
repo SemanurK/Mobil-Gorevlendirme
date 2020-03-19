@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gri"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Kullanici_Listele">
+
+
+
+<!--<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tüm Kullanıcılar"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="50dp"
+        android:id="@+id/k_ekle"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:drawableStart="@drawable/plus"
+       android:background="@drawable/buton_tasarimi"
+        android:layout_height="50dp" />
+</LinearLayout>-->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Tüm Bölümler"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:typeface="monospace" />
+    <LinearLayout
+      android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="280dp"
+            android:hint="Kullanıcı Ara ( Ad Soyad )"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/edt_kul_ara"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:padding="4dp"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/buton_tasarimi"
+            android:id="@+id/btn_kul_ara"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/tum_kullanicilar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:divider="@null"
+        android:dividerHeight="8dp"></ListView>
+    <!--<Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/k_sil"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/buton_tasarimi"
+        android:text="Seçili olanları sil"/>-->
+</LinearLayout>

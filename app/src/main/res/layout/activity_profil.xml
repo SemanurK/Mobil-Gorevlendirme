@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    tools:context=".Profil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff"
+      android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:background="@drawable/spinner_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <TextView
+            android:layout_width="100dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginLeft="6dp"
+
+            android:layout_height="wrap_content"
+            android:text="Ad soyad :"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/p_adsoyad"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_border"
+        android:padding="4dp">
+        <TextView
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginLeft="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı :"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="4dp"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/p_kul_ad"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="6dp"
+android:background="@drawable/spinner_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <TextView
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content"
+            android:text="Şifre :"/>
+        <EditText
+            android:layout_marginLeft="4dp"
+
+            android:layout_width="220dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:id="@+id/p_sifre"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/spinner_border"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="4dp">
+        <TextView
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content"
+            android:text="Cep :"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="4dp"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/p_cep"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_border"
+        android:layout_marginTop="6dp"
+        android:padding="4dp">
+        <TextView
+            android:layout_width="100dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content"
+            android:text="Mail Adresi :"/>
+        <EditText
+            android:layout_marginLeft="4dp"
+
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/p_mail"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_border"
+        android:layout_marginTop="6dp"
+        android:padding="4dp">
+    <TextView
+        android:layout_width="100dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="wrap_content"
+        android:text="Soru :"/>
+    <Spinner
+        android:layout_width="200dp"
+       android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/p_soru"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/spinner_border"
+        android:padding="4dp">
+        <TextView
+            android:layout_width="100dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="Cevap :"/>
+        <EditText
+            android:layout_marginLeft="4dp"
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/p_cevap"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/p_guncelle"
+        android:layout_width="match_parent"
+        android:background="@drawable/buton_tasarimi"
+        android:layout_height="wrap_content"
+        android:text="Bilgilerimi güncelle"/>
+
+</LinearLayout>
+</LinearLayout>

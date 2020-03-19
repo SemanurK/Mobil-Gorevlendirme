@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">denem</string>
+    <string name="opened">Menu Açık</string>
+    <string name="closed">Menu Kapalı</string>
+    <string-array name="bolumler">
+        <item>Dekan</item>
+        <item>Bölüm Başkanı</item>
+        <item>Öğretim Üyesi</item>
+        <item>Araştırma Görevlisi</item>
+
+    </string-array>
+    <string-array name="Gorevler">
+        <item> Görev1</item>
+        <item> Görev2</item>
+        <item> Görev3</item>
+        <item> Görev4</item>
+        <item> Görev5</item>
+        <item> Görev6</item>
+        <item> Görev7</item>
+        <item> Görev8</item>
+        <item> Görev9</item>
+        <item> Görev10</item>
+        <item>Görev Bulunmamaktadır</item>
+    </string-array>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menuler">Menuler</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

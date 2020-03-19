@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".Islemler"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:padding="6dp"
+            android:orientation="vertical"
+            android:background="@drawable/spinner_border">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Rol Adı "
+                    android:id="@+id/rol_adi"/>
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+
+                 android:layout_marginLeft="2dp"
+                    android:id="@+id/yeni_rol"
+                    android:text="Yeni Rol Ekle"
+                    android:background="@drawable/buton_tasarimi"/>
+
+
+
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yapmak istediğiniz işlemi seçimiz :"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/islem_rol"
+                android:layout_marginTop="10dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/radiogroup"
+                android:orientation="horizontal"
+                android:padding="5dp">
+                <RadioButton
+                    android:id="@+id/r_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textSize="17sp"
+                    android:text="Rolü Sil" />
+                <RadioButton
+                    android:id="@+id/r_radioButton2"
+                    android:layout_width="wrap_content"
+                    android:textSize="17sp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_height="wrap_content"
+                    android:text="Rolü Düzenle" />
+
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Rol Adı Düzenle"
+                    android:visibility="invisible"
+                    android:id="@+id/rol_adi_duzenle"/>
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:visibility="invisible"
+
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/rol_duzenle"
+                    android:text=" Rol Düzenle "
+                    android:background="@drawable/buton_tasarimi"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:orientation="vertical"
+            android:background="@drawable/spinner_border">
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Bölüm Adı "
+                    android:id="@+id/islem_bolum_adi"/>
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/yeni_bolum"
+                    android:text="Yeni Bölüm Ekle"
+                    android:background="@drawable/buton_tasarimi"/>
+
+
+
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yapmak istediğiniz işlemi seçimiz :"
+                android:textSize="18sp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/islem_bolum"
+                android:layout_marginTop="10dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/b_radiogroup"
+                android:orientation="horizontal"
+                android:padding="5dp">
+                <RadioButton
+                    android:id="@+id/b_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textSize="17sp"
+                    android:text="Bölümü Sil" />
+                <RadioButton
+                    android:id="@+id/b_radioButton2"
+                    android:layout_width="wrap_content"
+                    android:textSize="17sp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_height="wrap_content"
+                    android:text="Bölümü Düzenle" />
+
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Rol Adı Düzenle"
+                    android:visibility="invisible"
+                    android:id="@+id/bolum_adi_duzenle"/>
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:visibility="invisible"
+
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/bolum_duzenle"
+                    android:text=" Rol Düzenle "
+                    android:background="@drawable/buton_tasarimi"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Seçili Bölümü sil"
+                android:id="@+id/sil_bolum"
+                android:background="@drawable/buton_tasarimi"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context=".Sifre_Yenileme">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="12dp"
+        android:background="@drawable/spinner_border">
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TC : "
+                android:textColor="#000"
+             android:layout_marginLeft="82dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/su_tc"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kullanıcı Adı :"
+                android:id="@+id/deneme"
+                android:layout_marginLeft="14dp"
+android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/su_kulad"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="210dp"
+            android:text="Sorgula "
+android:id="@+id/sorgula"
+            android:background="@drawable/buton_tasarimi"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="6dp"
+        android:padding="12dp"
+        android:background="@drawable/spinner_border">
+
+            <Spinner
+                android:id="@+id/su_soru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Cevap :"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/su_cevap"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="210dp"
+            android:text="Doğrula"
+            android:id="@+id/dogrula"
+            android:background="@drawable/buton_tasarimi"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:padding="12dp"
+        android:background="@drawable/spinner_border">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="48dp"
+                android:text="Yeni Şifre :"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/su_sifre"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Yeni Şifre Tekrar :"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/su_tekrarsifre"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Şifreyi Değiştir"
+            android:id="@+id/degistir"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/buton_tasarimi"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

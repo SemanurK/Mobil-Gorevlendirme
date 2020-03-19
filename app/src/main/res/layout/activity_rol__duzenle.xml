@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="@drawable/gri"
+    tools:context=".Rol_Duzenle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_border"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="6dp"
+        android:textColor="#000"
+        android:text="İznini görüntülemek istediğiniz rolü seçiniz:"/>
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/rol_spinner">
+
+   </Spinner>
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/rol_izinList">
+
+    </ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_izin"
+        android:text="izinleri düzenle"
+        android:background="@drawable/buton_tasarimi"/>
+
+
+
+
+
+
+
+</LinearLayout>

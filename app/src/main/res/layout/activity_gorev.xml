@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gri"
+    tools:context=".Gorev"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/list_gorev"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_alignParentTop="true"
+
+
+        android:divider="@null"
+        android:dividerHeight="5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deneme"
+        android:id="@+id/goruldu"/>
+
+    <Button
+        android:id="@+id/gorev_tamamla"
+        android:text="Görevleri tamamla"
+        android:background="@drawable/buton_tasarimi"
+android:textSize="16sp"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+      android:layout_marginLeft="54dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Yeni_Kayit"
+    android:padding="8dp"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/spinner_border"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#C94629"
+
+                android:text=" * "/>
+            <EditText
+                android:layout_marginLeft="6dp"
+                android:layout_width="match_parent"
+                android:hint="TC "
+                android:maxLength="11"
+                android:inputType="number"
+                android:id="@+id/yk_tc"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:textColor="#C94629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * "/>
+            <EditText
+                android:layout_marginLeft="6dp"
+                android:layout_width="match_parent"
+                android:hint="Ad Soyad"
+                android:id="@+id/yk_adsoyad"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:textColor="#C94629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * "/>
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Kullanıcı Adı"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/yk_kulad"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:textColor="#C94629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * "/>
+            <EditText
+
+                android:layout_width="match_parent"
+                android:hint="Şifre"
+                android:layout_marginLeft="6dp"
+                android:inputType="textPassword"
+                android:id="@+id/yk_sifre"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/yk_spinner_cinsiyet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+
+            android:layout_marginTop="4dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:textColor="#C94629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * "/>
+
+            <Spinner
+                android:id="@+id/yk_spinner_bolum"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+
+        <!-- <Spinner
+             android:layout_marginTop="6dp"
+             android:id="@+id/yk_spinner_rol"
+             android:layout_width="match_parent"
+             android:layout_height="36dp"
+             android:layout_alignParentTop="true"/>-->
+        <EditText
+            android:id="@+id/yk_cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:hint="İletişim Numarası" />
+
+        <EditText
+            android:id="@+id/yk_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:hint="Mail Adresi" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:textColor="#C94629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * "/>
+
+            <Spinner
+                android:id="@+id/yk_soru"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="6dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:textColor="#C94629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * "/>
+
+
+            <EditText
+                android:id="@+id/yk_cevap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="4dp"
+                android:hint="Cevap" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/yk_dogumtarihi"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+
+                android:hint="Doğum Tarihi" />
+            <Button
+                android:id="@+id/yk_tarih_sec"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/buton_tasarimi"
+                android:drawableRight="@drawable/takviim"
+                android:drawablePadding="5dp"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/yk_kayitol"
+            android:background="@drawable/buton_tasarimi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kayıt Ol" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

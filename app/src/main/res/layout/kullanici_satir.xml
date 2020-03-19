@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kenarli_layout"
+    android:padding="6dp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/k_resim"
+        android:padding="5dp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/kullanici_isim"
+        android:layout_width="180dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/kul_unvan"
+            android:layout_width="200dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:text="deneme"
+
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            />
+
+
+
+
+</LinearLayout>
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/k_durum"
+        android:background="@drawable/isaretsiz"
+        />
+
+</LinearLayout>

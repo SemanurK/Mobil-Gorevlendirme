@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+  >
+
+  <!--  <EditText
+        android:id="@+id/kk_ad_soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Ad Soyad"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/tc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="TC"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/kul_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+       android:hint="Kullanıcı Adı"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Sifre"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/dogum_yil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doğum Yılı (1996.10.11)"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/dogum_yer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Doğum Yeri"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:inputType="textPersonName"
+       android:hint="Mail Adresi" />
+    <EditText
+        android:id="@+id/cep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:inputType="textPersonName"
+        android:hint="Cep" />-->
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı ID :"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/kul_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        android:textStyle="bold"
+       android:layout_marginLeft="10dp"
+        android:inputType="textPersonName"
+        />
+
+  </LinearLayout>
+  <TextView
+      android:layout_marginLeft="4dp"
+      android:layout_marginTop="4dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kullanıcının bölümünü seçiniz :"
+
+      android:textSize="18sp"/>
+    <Spinner
+
+        android:id="@+id/Kspinner_bolum"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+  <TextView
+      android:layout_marginLeft="4dp"
+      android:layout_marginTop="4dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kullanıcının rolünü seçiniz :"
+
+      android:textSize="18sp"/>
+    <Spinner
+        android:layout_marginTop="6dp"
+        android:id="@+id/Kspinner_rol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"/>
+  <TextView
+      android:layout_marginLeft="4dp"
+      android:layout_marginTop="4dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kullanıcının durumunu seçiniz :"
+      android:textSize="18sp"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup"
+        android:orientation="horizontal"
+        android:padding="10dp">
+      <RadioButton
+          android:id="@+id/i_radioButton"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+
+
+          android:textSize="17sp"
+          android:text="Aktif" />
+      <RadioButton
+          android:id="@+id/i_radioButton2"
+          android:layout_width="120dp"
+          android:textSize="17sp"
+
+          android:layout_marginTop="4dp"
+
+          android:layout_height="wrap_content"
+          android:text="Pasif" />
+
+
+    </RadioGroup>
+  </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

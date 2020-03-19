@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/gri"
+    android:padding="8dp"
+    tools:context=".Kullanici_Ekle2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp"
+        android:background="@drawable/spinner_border"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Ad Soyad"
+            android:id="@+id/ekle_adsoyad"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="TC Kimlik No"
+            android:maxLength="11"
+            android:inputType="number"
+            android:id="@+id/ekle_tc"
+            android:layout_marginTop="6dp"
+
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Kullanıcı Adı"
+            android:layout_marginTop="6dp"
+
+            android:id="@+id/ekle_kulad"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinner_cinsiyet"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+            android:layout_alignParentTop="true"
+            />
+        <Spinner
+            android:id="@+id/spinner_bolum"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+
+        <Spinner
+            android:layout_marginTop="6dp"
+            android:id="@+id/spinner_rol"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+            android:layout_alignParentTop="true"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="İletişim Numarası"
+            android:id="@+id/ekle_cep"
+            android:layout_marginTop="6dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Mail Adresi"
+            android:layout_marginTop="6dp"
+
+            android:id="@+id/ekle_mail"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="6dp"
+
+            android:layout_width="match_parent"
+            android:hint="İkametgah Adresi"
+            android:id="@+id/ekle_adres"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/kul_ekle"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/buton_tasarimi"
+            android:layout_height="wrap_content"
+            android:text="Yeni Kullanıcı Ekle" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
